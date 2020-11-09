@@ -8,6 +8,7 @@ CREATE TABLE public.livreur (
                 typeContrat VARCHAR(32) NOT NULL,
                 siret VARCHAR(14),
                 disponibilite BOOLEAN NOT NULL,
+                position POINT,
                 login VARCHAR(32) NOT NULL,
                 motDePasse VARCHAR(32) NOT NULL,
                 isActive BOOLEAN DEFAULT true NOT NULL,
